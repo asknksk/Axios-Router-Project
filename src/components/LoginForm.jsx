@@ -8,6 +8,7 @@ const LoginForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     sessionStorage.setItem("email", email);
+    window.location.href = "/home";
   };
 
   return (
