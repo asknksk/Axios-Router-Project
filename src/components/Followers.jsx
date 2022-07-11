@@ -35,6 +35,9 @@ const Followers = ({ followers }) => {
               ))}
             </Row>
           </Container>
+          <div>
+            <Paginate pages={totalPages} setCurrentPage={setCurrentPage} />
+          </div>
         </div>
       )}
     </div>
